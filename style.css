@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+font-family: sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background: wheat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#mc {
+    width: 800px;
+    height: 300px;
+    background: wheat;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.coffee   {
+    width: 200px;
+    height: 280px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    transition: all 1s ease-in-out;
+   
+}
+.coffee > img {
+    width: 260px;
+    height: px;
+    
+}
+h3,h2 {
+    color: darkslategray;
+    padding-left: 10px;
+}
+.tea {
+    width: 200px;
+    height: 280px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    transition: all 1s ease-in-out;
+}
+.tea > img {
+    width: 200px;
+}
+.milk {
+        width: 200px;
+    height: 280px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    transition: all 1s ease-in-out;
+}
+.milk > img {
+    width: 200px;
+}
+.sprite {
+      width: 200px;
+    height: 280px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    transition: all 1s ease-in-out;
+}
+.sprite:hover {
+transform: scale(1.1);
+
+background: whitesmoke;
+}
+.coffee:hover {
+transform: scale(1.1);
+
+background: whitesmoke;
+}
+.milk:hover {
+transform: scale(1.1);
+
+background: whitesmoke;
+}
+.tea:hover {
+transform: scale(1.1);
+
+background: whitesmoke;
+
+}
